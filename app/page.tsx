@@ -3051,7 +3051,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
         <textarea
           name="About Business"
           required
-          rows="4"
+          rows={4}
           placeholder="What do you do, who do you serve and what would you like people to know about your business?"
           className="w-full border border-[#E4DCCF] rounded-2xl px-5 py-4 outline-none focus:border-[#C5A46D] transition resize-none"
         />
@@ -3116,7 +3116,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
         <textarea
           name="Website Goals"
-          rows="3"
+          rows={3}
           placeholder="For example: attract new customers, showcase my services, sell products, build credibility..."
           className="w-full border border-[#E4DCCF] rounded-2xl px-5 py-4 outline-none focus:border-[#C5A46D] transition resize-none"
         />
@@ -3280,7 +3280,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
         <textarea
           name="Website Inspiration"
-          rows="3"
+          rows={3}
           placeholder="Paste website links or describe the style you're drawn to..."
           className="w-full border border-[#E4DCCF] rounded-2xl px-5 py-4 outline-none focus:border-[#C5A46D] transition resize-none"
         />
@@ -3365,7 +3365,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
         <textarea
           name="Additional Information"
-          rows="4"
+          rows={4}
           placeholder="Tell us anything else that might help us understand your project..."
           className="w-full border border-[#E4DCCF] rounded-2xl px-5 py-4 outline-none focus:border-[#C5A46D] transition resize-none"
         />
