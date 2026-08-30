@@ -2969,7 +2969,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
               type="email"
               name="Email"
               required
-              placeholder="you@example.com"
+              placeholder="info.thebrandpersona@gmail.com"
               className="w-full border border-[#E4DCCF] rounded-2xl px-5 py-4 outline-none focus:border-[#C5A46D] transition"
             />
           </div>
@@ -3430,7 +3430,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
         </a>
 
         <a
-          href="mailto:YOURGMAIL@gmail.com"
+          href="info.thebrandpersona@gmail.com"
           className="text-sm text-[#8A8178] hover:text-[#2A2623] transition-colors duration-300"
         >
           Email
