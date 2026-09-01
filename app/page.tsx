@@ -2702,10 +2702,10 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
         </p>
 
         <a
-          href="mailto:YOURGMAIL@gmail.com?subject=Website%20Enquiry"
+          href="mailto:thebrandpersona.info@gmail.com?subject=Website%20Enquiry"
           className="inline-block mt-6 text-sm text-[#2A2623] border-b border-[#C5A46D] pb-1 hover:text-[#C5A46D] transition-colors duration-300"
         >
-          YOURGMAIL@gmail.com
+          thebrandpersona.info@gmail.com
         </a>
 
       </motion.div>
@@ -2785,7 +2785,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
     >
 
       <a
-        href="mailto:YOURGMAIL@gmail.com?subject=Website%20Enquiry"
+        href="mailto:thebrandpersona.info@gmail.com?subject=Website%20Enquiry"
         className="
           inline-flex
           items-center
@@ -2884,7 +2884,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
     {/* Form */}
 
     <form
-      action="https://formsubmit.co/YOURPERSONALGMAIL@gmail.com"
+      action="https://formsubmit.co/thebrandpersona.info@gmail.com"
       method="POST"
       className="bg-white rounded-[32px] border border-[#E7DDD1] p-7 md:p-12 shadow-sm"
     >
@@ -2969,7 +2969,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
               type="email"
               name="Email"
               required
-              placeholder="info.thebrandpersona@gmail.com"
+              placeholder="thebrandpersona.info@gmail.com"
               className="w-full border border-[#E4DCCF] rounded-2xl px-5 py-4 outline-none focus:border-[#C5A46D] transition"
             />
           </div>
@@ -3430,7 +3430,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
         </a>
 
         <a
-          href="info.thebrandpersona@gmail.com"
+          href="thebrandpersona.info@gmail.com"
           className="text-sm text-[#8A8178] hover:text-[#2A2623] transition-colors duration-300"
         >
           Email
