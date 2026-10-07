@@ -2023,22 +2023,30 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
           <li>✓ 2 weeks of post-launch support</li>
         </ul>
 
-        <button className="
-          mt-10
-          w-full
-          border
-          border-[#C8A46A]
-          text-[#6F5832]
-          py-4
-          rounded-full
-          hover:bg-[#C8A46A]
-          hover:text-white
-          transition-all
-          duration-300
-        ">
-          Start Your Project
-        </button>
-
+       <button
+  type="button"
+  onClick={() => {
+    console.log("STARTER BUTTON CLICKED");
+    document.getElementById("enquiry")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }}
+  className="
+    mt-10
+    w-full
+    border
+    border-[#C8A46A]
+    text-[#6F5832]
+    py-4
+    rounded-full
+    hover:bg-[#C8A46A]
+    hover:text-white
+    transition-all
+    duration-300
+  "
+>
+  Start Your Project
+</button>
       </motion.div>
 
 
@@ -2048,6 +2056,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
       ========================== */}
 
       <motion.div
+  style={{ position: "relative", zIndex: 20 }}
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
@@ -2114,20 +2123,24 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
           <li>✓ Brand styling</li>
           <li>✓ 30 days of post-launch support</li>
         </ul>
-
-        <button className="
-          mt-10
-          w-full
-          bg-[#262321]
-          text-white
-          py-4
-          rounded-full
-          hover:bg-[#403A35]
-          transition-all
-          duration-300
-        ">
-          Start Your Project
-        </button>
+ <a
+  href="#enquiry"
+  className="
+    mt-10
+    w-full
+    block
+    text-center
+    bg-[#262321]
+    text-white
+    py-4
+    rounded-full
+    hover:bg-[#403A35]
+    transition-all
+    duration-300
+  "
+>
+  Start Your Project
+</a>
 
       </motion.div>
 
@@ -2137,7 +2150,8 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
             PREMIUM
       ========================== */}
 
-      <motion.div
+    <motion.div
+  style={{ position: "relative", zIndex: 20 }}
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
@@ -2186,21 +2200,26 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
           <li>✓ Priority support</li>
         </ul>
 
-        <button className="
-          mt-10
-          w-full
-          border
-          border-[#C8A46A]
-          text-[#6F5832]
-          py-4
-          rounded-full
-          hover:bg-[#C8A46A]
-          hover:text-white
-          transition-all
-          duration-300
-        ">
-          Request a Custom Quote
-        </button>
+<a
+  href="#enquiry"
+  className="
+    mt-10
+    w-full
+    block
+    text-center
+    border
+    border-[#C8A46A]
+    text-[#6F5832]
+    py-4
+    rounded-full
+    hover:bg-[#C8A46A]
+    hover:text-white
+    transition-all
+    duration-300
+  "
+>
+  Request a Custom Quote
+</a>
 
       </motion.div>
 
@@ -2215,12 +2234,12 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
     <div className="md:hidden space-y-6">
 
-
       {/* ==========================
             MOBILE STARTER
       ========================== */}
 
       <motion.div
+        style={{ position: "relative", zIndex: 20 }}
         initial={{ opacity: 0, y: 35 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
@@ -2302,21 +2321,28 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
 
         <motion.button
-          whileTap={{ scale: 0.97 }}
-          className="
-            mt-7
-            w-full
-            border
-            border-[#C8A46A]
-            text-[#6F5832]
-            py-3.5
-            rounded-full
-            text-sm
-            transition-all
-          "
-        >
-          Start Your Project
-        </motion.button>
+  whileTap={{ scale: 0.97 }}
+  type="button"
+  onClick={() => {
+  console.log("BUTTON CLICKED");
+  document.getElementById("enquiry")?.scrollIntoView({
+    behavior: "smooth",
+  });
+}}
+  className="
+    mt-7
+    w-full
+    border
+    border-[#C8A46A]
+    text-[#6F5832]
+    py-3.5
+    rounded-full
+    text-sm
+    transition-all
+  "
+>
+  Start Your Project
+</motion.button>
 
       </motion.div>
 
@@ -2430,6 +2456,13 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
         <motion.button
           whileTap={{ scale: 0.97 }}
+          type="button"
+         onClick={() => {
+  console.log("BUTTON CLICKED");
+  document.getElementById("enquiry")?.scrollIntoView({
+    behavior: "smooth",
+  });
+}}
           className="
             mt-7
             w-full
@@ -2534,22 +2567,29 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
         </ul>
 
 
-        <motion.button
-          whileTap={{ scale: 0.97 }}
-          className="
-            mt-7
-            w-full
-            border
-            border-[#C8A46A]
-            text-[#6F5832]
-            py-3.5
-            rounded-full
-            text-sm
-            transition-all
-          "
-        >
-          Request a Custom Quote
-        </motion.button>
+       <motion.button
+  whileTap={{ scale: 0.97 }}
+  type="button"
+  onClick={() => {
+    console.log("PREMIUM BUTTON CLICKED");
+    document.getElementById("enquiry")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }}
+  className="
+    mt-7
+    w-full
+    border
+    border-[#C8A46A]
+    text-[#6F5832]
+    py-3.5
+    rounded-full
+    text-sm
+    transition-all
+  "
+>
+  Request a Custom Quote
+</motion.button>
 
       </motion.div>
 
@@ -2804,10 +2844,9 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
           transition-all
           duration-300
         "
-      >
-        Start Your Project
-      </a>
-
+         >
+  Start Your Project
+</a>
       <p className="text-xs text-[#A49B91] mt-5">
         No pressure. Just a conversation about what you need.
       </p>
@@ -2883,31 +2922,23 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
     {/* Form */}
 
-    <form
-      action="https://formsubmit.co/thebrandpersona.info@gmail.com"
-      method="POST"
-      className="bg-white rounded-[32px] border border-[#E7DDD1] p-7 md:p-12 shadow-sm"
-    >
+   <form
+  name="project-enquiry"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+  className="bg-white rounded-[32px] border border-[#E7DDD1] p-7 md:p-12 shadow-sm"
+>
+  <input type="hidden" name="form-name" value="project-enquiry" />
+
+  <p className="hidden">
+    <label>
+      Don&apos;t fill this out if you&apos;re human:
+      <input name="bot-field" />
+    </label>
+  </p>
 
       {/* Form settings */}
-
-      <input
-        type="hidden"
-        name="_subject"
-        value="New Website Enquiry — The Brand Persona"
-      />
-
-      <input
-        type="hidden"
-        name="_template"
-        value="table"
-      />
-
-      <input
-        type="hidden"
-        name="_captcha"
-        value="true"
-      />
 
 
       {/* ==================
@@ -3430,7 +3461,7 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
         </a>
 
         <a
-          href="thebrandpersona.info@gmail.com"
+  href="mailto:thebrandpersona.info@gmail.com"
           className="text-sm text-[#8A8178] hover:text-[#2A2623] transition-colors duration-300"
         >
           Email
