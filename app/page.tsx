@@ -10,6 +10,33 @@ import {
 } from "lucide-react";
 import { div } from "framer-motion/m";
 export default function Home() {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  event.preventDefault();
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch("/__forms.html", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams(formData as any).toString(),
+    });
+
+    if (!response.ok) {
+      throw new Error("Form submission failed");
+    }
+
+    alert("Thank you! Your project enquiry has been received.");
+    form.reset();
+
+  } catch (error) {
+    alert("Something went wrong. Please try again.");
+    console.error(error);
+  }
+};
  const navLink = `
 relative
 uppercase
@@ -2922,11 +2949,12 @@ className="text-5xl text-[#2A2623] transition-colors duration-500 group-hover:te
 
     {/* Form */}
 
-   <form
+  <form
   name="project-enquiry"
   method="POST"
   data-netlify="true"
   data-netlify-honeypot="bot-field"
+  onSubmit={handleSubmit}
   className="bg-white rounded-[32px] border border-[#E7DDD1] p-7 md:p-12 shadow-sm"
 >
   <input type="hidden" name="form-name" value="project-enquiry" />

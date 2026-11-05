@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Enquiry</title>
+</head>
+<body>
+
+ <form
+  name="project-enquiry"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+  hidden
+>
+
+    <input type="hidden" name="form-name" value="project-enquiry">
+
+    <p hidden>
+      <label>
+        Don't fill this out if you're human:
+        <input name="bot-field">
+      </label>
+    </p>
+
+    <input type="text" name="Name">
+    <input type="text" name="Business Name">
+    <input type="email" name="Email">
+    <input type="tel" name="WhatsApp">
+
+    <input type="radio" name="Business Stage" value="I'm starting a new business">
+    <input type="radio" name="Business Stage" value="I'm an established business">
+    <input type="radio" name="Business Stage" value="I'm rebranding my existing business">
+    <input type="radio" name="Business Stage" value="I'm not sure yet">
+
+    <textarea name="About Business"></textarea>
+
+    <input type="radio" name="Website Type" value="One-page website">
+    <input type="radio" name="Website Type" value="Multi-page business website">
+    <input type="radio" name="Website Type" value="Online store / e-commerce">
+    <input type="radio" name="Website Type" value="I'm not sure yet">
+
+    <textarea name="Website Goals"></textarea>
+
+    <input type="radio" name="Logo" value="Yes">
+    <input type="radio" name="Logo" value="No">
+    <input type="radio" name="Logo" value="I'm not sure">
+
+    <input type="radio" name="Brand Colours" value="Yes">
+    <input type="radio" name="Brand Colours" value="No">
+    <input type="radio" name="Brand Colours" value="I'm not sure">
+
+    <input type="radio" name="Domain" value="Yes">
+    <input type="radio" name="Domain" value="No">
+    <input type="radio" name="Domain" value="I'm not sure">
+
+    <input type="radio" name="Hosting" value="Yes">
+    <input type="radio" name="Hosting" value="No">
+    <input type="radio" name="Hosting" value="I'm not sure">
+
+    <input type="radio" name="Content" value="Yes">
+    <input type="radio" name="Content" value="No">
+    <input type="radio" name="Content" value="I'm not sure">
+
+    <input type="checkbox" name="Requested Features" value="Contact form">
+    <input type="checkbox" name="Requested Features" value="WhatsApp">
+    <input type="checkbox" name="Requested Features" value="Google Maps">
+    <input type="checkbox" name="Requested Features" value="Image gallery">
+    <input type="checkbox" name="Requested Features" value="Testimonials">
+    <input type="checkbox" name="Requested Features" value="Booking system">
+    <input type="checkbox" name="Requested Features" value="Blog">
+    <input type="checkbox" name="Requested Features" value="Online payments">
+    <input type="checkbox" name="Requested Features" value="E-commerce">
+    <input type="checkbox" name="Requested Features" value="Something else">
+
+    <textarea name="Website Inspiration"></textarea>
+
+    <input type="radio" name="Budget" value="R3,500 – R5,000">
+    <input type="radio" name="Budget" value="R5,000 – R8,000">
+    <input type="radio" name="Budget" value="R8,000+">
+    <input type="radio" name="Budget" value="I'm not sure yet">
+
+    <textarea name="Additional Information"></textarea>
+
+  </form>
+
+</body>
+</html>
